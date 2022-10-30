@@ -31,7 +31,7 @@
             </div>
             <div class="form-group">
               <label for="date">Time</label>
-              <input type="text" class="form-control" id="time" name="time" minlength="3" maxlength="100" required />
+              <input type="time" class="form-control" id="time" name="time" minlength="3" maxlength="100" required />
             </div>
             <br>
             <div class="form-group">
@@ -44,7 +44,7 @@
             </div>
             <div class="form-group">
               <label for="info">Additional Info</label>
-              <input type="text" class="form-control" id="info" name="info" />
+              <textarea  rows="4" class="form-control" id="info" name="info"> </textarea>
             </div>
             <br>
             <input type="submit" class="btn btn-primary" />
